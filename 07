@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro eu
+		verdadeiro ch, jc
+		
+		eu = 0
+		ch = 1,5
+		jc = 1,1
+
+		fachada{
+			ch = ch + 0,02
+			jc = jc + 0,04
+			i++
+		}enquanto (ch > jc)
+
+			escreva("Foram, i, "anos para Juca ser maior que Chico")
+	}
+}
